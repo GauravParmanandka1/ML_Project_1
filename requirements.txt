@@ -1,0 +1,7 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+## editable mode - to automatically trigger the installation of the package from current directory (i.e., when using setup.py)
+-e .
