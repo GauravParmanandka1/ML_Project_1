@@ -3,5 +3,7 @@ numpy
 scikit-learn
 matplotlib
 seaborn
+catboost
+xgboost
 ## editable mode - to automatically trigger the installation of the package from current directory (i.e., when using setup.py)
--e .
+#-e .
