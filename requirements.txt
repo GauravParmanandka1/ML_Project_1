@@ -1,9 +1,9 @@
-pandas
-numpy
-scikit-learn
-matplotlib
-seaborn
-catboost
-xgboost
+numpy==1.26.4
+pandas==1.5.3
+matplotlib==3.6.2
+seaborn==0.12.2
+scikit-learn==1.2.0
+catboost==1.2.7
+xgboost==1.7.3
 ## editable mode - to automatically trigger the installation of the package from current directory (i.e., when using setup.py)
 #-e .
