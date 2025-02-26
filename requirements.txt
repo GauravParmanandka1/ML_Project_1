@@ -6,5 +6,6 @@ scikit-learn==1.2.0
 catboost==1.2.7
 xgboost==1.7.3
 dill==0.3.9
+Flask
 ## editable mode - to automatically trigger the installation of the package from current directory (i.e., when using setup.py)
 #-e .
