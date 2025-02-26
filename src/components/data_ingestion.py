@@ -33,9 +33,8 @@ def initiate_data_ingestion(self):
 
         logging.info('Ingestion of the Data coompleted')
 
-        return (self.ingestion_config.train_data_path, self.ingestion_config.test_data_path, self.ingestion_config.raw_data_path)
+        return (self.ingestion_config.train_data_path, self.ingestion_config.test_data_path)
     except Exception as e:
-        self.logger.error(f'Data ingestion failed: {str(e)}')
         raise CustomException(e,sys)
 
 if __name__ == '__main__':
